@@ -1,0 +1,23 @@
+body{
+    background-image:  linear-gradient(to right, rgba(201, 1, 1, 0), rgb(162, 219, 221));;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.quizSection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 40vh;
+    background-image:  linear-gradient(to right, rgba(201, 1, 1, 0), rgb(255, 13, 25));
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+
+}
+
+.quiz{
+    width: 100%;
+}
