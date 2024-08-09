@@ -1300,7 +1300,7 @@ const loadQuiz = () => {
   console.log(options);
 
 //   giving value to questionelment 
-  questionElem.innerText = `${currentQuiz+1}: question`;
+  questionElem.innerText = `${currentQuiz+1}: ${question}`;
 
 
   options.forEach((curElement, index) => {
